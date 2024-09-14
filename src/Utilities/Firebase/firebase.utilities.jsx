@@ -1,4 +1,4 @@
-import { initializeApp } from 'firebase/app';
+//import { initializeApp } from 'firebase/app';
 import {
   getAuth,
   signInWithRedirect,
@@ -11,14 +11,14 @@ import {
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc, collection, writeBatch, query, getDocs } from 'firebase/firestore';
 
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: "AIzaSyBe8ySPnRxVsKgXc1Xhno4OJB6GCpdVP_U",
   authDomain: "urban-chic-db.firebaseapp.com",
   projectId: "urban-chic-db",
   storageBucket: "urban-chic-db.appspot.com",
   messagingSenderId: "363826220233",
   appId: "1:363826220233:web:149d62330b9c11dcfe5118"
-};
+};*/
 
 //const firebaseApp = initializeApp(firebaseConfig);
 
